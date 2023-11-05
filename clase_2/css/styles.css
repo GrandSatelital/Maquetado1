@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+
+p{
+    color: red;
+}
+
+span{
+    color: red;
+    background-color: black;
+}
+
+section{
+    color: red;
+    background-color: blue;
+}
+
+div{
+    color: red;
+    background-color: blueviolet;
+}
