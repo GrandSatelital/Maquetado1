@@ -46,16 +46,28 @@ Dos puntos para referenciar pseudoelementos
 
 
 
+/* primer y ultimo hijo del padre*/
 .listaNumeros li:first-child,
 .listaNumeros li:last-child{
     background-color: yellow;
     color: red;
 }
 
+/*modifica el hijo que le indiquemos en ()*/
 .listaNumeros li:nth-child(3){
     background-color: blue;
 }
 
+/*modifica el hijo que le indiquemos () pero empieza a contar desde el ultimo*/
 .listaNumeros li:nth-last-child(3){
     background-color: chartreuse;
+}
+/*::before pone contenido antes de lo que se le indique*/
+.beforeExample::before{
+    content: "Antes";
+}
+
+/*::after pone contenido despues de lo que se le indique*/
+.beforeExample::after{
+    content: "Después";
 }
