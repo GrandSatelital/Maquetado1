@@ -1,0 +1,61 @@
+.hoverImage:hover {
+    width: 250px;
+}
+
+.buttonHover{
+    background-color: transparent;
+    border: 1px solid blue;
+    padding: 8px;
+}
+
+.buttonHover:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/*
+Modificar aspecto de links visitados
+*/
+a:visited{
+    color: red;
+}
+
+/*
+Modificar links sin visitar
+*/
+a:link{
+    color: yellow;
+}
+
+/*
+Un punto para referenciar pseudoclases
+*/
+a:active{
+    text-decoration: none;
+    background-color: yellow;
+}
+
+/*
+Dos puntos para referenciar pseudoelementos
+*/
+.firstLetter::first-letter{
+    color: green;
+    font-size: 30px;
+}
+
+
+
+.listaNumeros li:first-child,
+.listaNumeros li:last-child{
+    background-color: yellow;
+    color: red;
+}
+
+.listaNumeros li:nth-child(3){
+    background-color: blue;
+}
+
+.listaNumeros li:nth-last-child(3){
+    background-color: chartreuse;
+}

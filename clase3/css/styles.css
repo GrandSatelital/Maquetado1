@@ -1,0 +1,36 @@
+#selectorHijo{
+    border: 1px solid red;
+    margin: 16px;
+    padding: 16px;
+
+}
+
+/*
+Selector hijo > 
+Selecciona a los hijos directos de la etiqueta padre
+*/
+#selectorHijo .contenedor > p {
+    color: blue;
+}
+
+#selectorHermanoAdyacente h3 + p{
+    background-color: cyan;
+    outline: red solid;
+}
+
+#selectorHermanoGeneral h3 ~ span{
+    background-color: yellow;
+}
+
+/*
+Selector de enlace
+*/
+
+a[href="https://www.google.com.mx/?hl=es"] {
+    color: red;
+}
+
+a:visited{
+    color: red;
+}
+
