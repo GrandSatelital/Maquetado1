@@ -1,0 +1,89 @@
+
+
+/*posicion relativa
+relative habilita las propiedades de dirección:
+top, left (las mas importantes). Y bottom, right.
+*/
+.posicionRelativa{
+    position: relative;
+    top: 100px;
+}
+
+.moveRelative1{
+    top: 100px;
+}
+
+.posicionAbsoluta{
+    position: absolute;
+}
+
+.moveAbsolute1{
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+
+.ejAbsolutoYRelativo{
+    width:715px;
+    height: 300px;
+    border: 1px dashed red;
+    background-color: burlywood;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.ejAbsolutoYRelativo .box:first-child{
+    left: 150px;
+    background-color: aqua;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(2){
+    left: 300px;
+    background-color: black;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(3){
+    left: 450px;
+    background-color: brown;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(4){
+    left: 600px;
+    background-color:chartreuse;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(5){
+    top: 150px;
+    background-color: thistle;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(6){
+    top: 150px;
+    left: 150px;
+    background-color: royalblue;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(7){
+    top: 150px;
+    left: 300px;
+    background-color: green;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(8){
+    top: 150px;
+    left: 450px;
+    background-color: purple;
+}
+
+.ejAbsolutoYRelativo .box:nth-child(9){
+    top: 150px;
+    left: 600px;
+    background-color: orange;
+}
+
+
