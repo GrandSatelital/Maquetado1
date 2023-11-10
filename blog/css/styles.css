@@ -1,0 +1,32 @@
+/*
+Estilos mobile
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: coral;
+    height: 30px;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.container{
+    width: 90%;
+    border: 1px solid;
+    /*centrar usando margenes laterales*/
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.mainContainer{
+    margin-top: 30px;
+    position: relative;
+    top: 30px;
+}
