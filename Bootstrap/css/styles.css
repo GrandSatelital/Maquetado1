@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.miGrid {
+  border: 2px solid grey;
+  background-color: black;
+  border-radius: 25px;
+  margin: 1px;
+  padding: 10px;
+}
+
+.miRow {
+  color: white;
+  background-color: blue;
+  margin: 20px;
+  text-align: center;
+}
+
+.miCol {
+  text-align: center;
+  border: 2px solid maroon;
+  padding: 10px;
+}

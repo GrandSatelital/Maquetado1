@@ -1,0 +1,73 @@
+$bgColor: chocolate;
+$colorBordeCajas: black;
+$bordeGrueso: 5px solid $colorBordeCajas;
+$bordeLigero: 1px solid $colorBordeCajas;
+$colorFondoLista: beige;
+$colorFondoNavbar: gray;
+$paddingNavbar: 8px;
+
+//crear mixins reutilizables
+@mixin cajaFlexCenterSpaceBetw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}                                                   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $bgColor;
+    color: black;
+}
+
+/*
+.container{
+    width: 200px;
+    height: 150px;
+    border: $bordeGrueso;
+}
+
+.lista{
+    background-color: red;
+    border: $bordeLigero;
+}
+*/
+
+//nesting
+.container{
+    width: 200px;
+    height: 150px;
+    border: $bordeGrueso;
+    ul{
+        background-color: $colorFondoLista;
+        border: $bordeLigero;
+        li{
+        font-style: italic;
+       }
+       li:hover{
+        font-size: large;
+       }
+    }
+}
+
+.navbar{
+    @include cajaFlexCenterSpaceBetw;
+    /*
+    display: flex;
+    justify-content:space-between;
+    */
+    background-color: $colorFondoNavbar;
+    padding: $paddingNavbar;
+    width: 100%;
+    ul{
+        @include cajaFlexCenterSpaceBetw;
+        list-style: none;
+    }
+    li{
+        margin: 8px;
+    }
+}

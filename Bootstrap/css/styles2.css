@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: cornflowerblue;
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 12%;
+}
+
+.sidebar {
+  margin: 0;
+  background-color: orangered;
+  color: white;
+}
+
+.Columna1 {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.Columna3 {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.footer {
+  background-color: teal;
+  color: white;
+  padding-left: 12%;
+  padding-top: 5px;
+}
